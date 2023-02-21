@@ -1,0 +1,25 @@
+<div *ngIf="mode==='small'" class="info-list small row row-cols-md-6">
+    <div *ngFor="let info of info" class="info-list small-info p-2">
+        <a [href]="info.url" target="_blank" class="info-list-link">
+                <img [src]="info.urlToImage" class="card-img-top" [alt]="info.source.name">
+                <div class="info-list small-content">
+                    <span class="info-list small-data">{{info.source.name}}</span>
+                    <span class="info-list small-data">{{info.title}}</span>
+                </div>
+        </a>
+    </div>
+</div>
+
+
+<div *ngIf="mode==='big'" class=" info-list big row row-cols-1 row-cols-md-3 g-4">
+    <div *ngFor="let info of info" class="col">
+        <div class="info-list big-info">
+            <img appImgBroken [src]="info.urlToImage" class="card-img-top" alt="...">
+            <div class="info-list big-content">
+                <span class="badge mb-1">{{info.source.name}}</span>
+                <p class="card-text">{{info.description}}</p>
+                <a [href]="info.url" target="_blank" class="search-btn btn-block">Open</a>
+            </div>
+        </div>
+    </div>
+</div>

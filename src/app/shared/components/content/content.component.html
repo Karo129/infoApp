@@ -1,0 +1,11 @@
+<div class="content">
+    <h1 class="content-title">{{title}}</h1>
+    <div class="content-zone">
+        <ul class="content-zone__info--list" ngClass="{'card-small':mode==='small', 'card-big': mode==='big'}">
+            <li>
+               <app-info-list [mode]="mode"></app-info-list> 
+            </li>
+        </ul>
+    </div>
+</div>
+

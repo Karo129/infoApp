@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    --color-1: #0b090a;
+    --color-2: #161a1d;
+    --color-3: #660708;
+    --color-4: #e5383b;
+    --color-5: #b1a7a6;
+    --color-6: #f5f3f4;
+    --border-radius-1: .25rem;
+    --border-radius-2: .5rem;
+}
+
+html,
+body{
+    margin:0;
+    padding: 0;
+    background-color: var(--color-1);
+    color: var(--color-6);
+}

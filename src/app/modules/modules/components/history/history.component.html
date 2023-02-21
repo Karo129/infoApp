@@ -1,0 +1,7 @@
+<div class="history-page">
+    <app-search (chosenParam)="searchInfo($event)"></app-search>
+    <app-spinner *ngIf="loading"></app-spinner>
+    <app-info-list-search [listInfo]="listInfo"></app-info-list-search>
+
+</div>
+

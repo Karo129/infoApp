@@ -1,0 +1,23 @@
+.search-info-card-body span {
+  background-color: var(--color-5);
+}
+
+.search-btn {
+  font-size: 1.2rem;
+  border: 0;
+  border-radius: 3rem;
+  height: 3rem;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+}
+.search-btn {
+  background-color: var(--color-5);
+  color: var(--color-1);
+}
+.search-btn:hover {
+  background-color: var(--color-1);
+  color: var(--color-6);
+}
+.search-info-card-body {
+  padding: 0 0 1rem 0;
+}

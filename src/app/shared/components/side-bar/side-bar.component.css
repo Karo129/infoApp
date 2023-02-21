@@ -1,0 +1,27 @@
+.side-bar {
+    width: 15rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1.5rem 1.5rem;
+    background-color: var(--color-1);
+}
+.side-bar__list1, .side-bar__list2{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-bar__list__label{
+    margin-left: 0.5em;
+}
+
+.side-bar__list1 li, .side-bar__list2 li {
+    cursor: pointer;
+    padding: 0.5em;
+}
+
+.side-bar__list1 li:hover, .side-bar__list2 li:hover{
+    background-color: var(--color-4);
+}

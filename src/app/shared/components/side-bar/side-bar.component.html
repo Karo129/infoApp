@@ -1,0 +1,17 @@
+<div class="side-bar">
+    <ul class="side-bar__list1">
+        <li [routerLink]="item.router" *ngFor="let item of menu.options">
+            <div class="list-wrapper">
+                <i [ngClass]="[item.icon]"></i>
+                <span class="side-bar__list__label">{{item.name}}</span>
+            </div>
+        </li>
+    </ul>
+    <ul class="side-bar__list2">
+        <li [routerLink]="item.router" *ngFor="let item of menu.access">
+            <div class="list-wrapper">
+                <span class="side-bar__list__label p-3">{{item.name}}</span>
+            </div>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,18 @@
+<div class="search-page">
+  <h3 class="heading">Search at InfoApp</h3>
+  <div class="col-lg-8 offset-lg-2">
+    <form (ngSubmit)="searchInfo()">
+      <div class="form-group">
+        <select name="category" [(ngModel)]="chosenCategory" class="form-control search-select">
+          <option [value]="category.value" *ngFor="let category of category">{{ category.name }}</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <select name="pais" [(ngModel)]="chosenCountry" class="form-control search-select">
+          <option [value]="country.value" *ngFor="let country of country">{{ country.name }}</option>
+        </select>
+      </div>
+      <button type="submit" class="btn search-btn">Search</button>
+    </form>
+  </div>
+</div>
