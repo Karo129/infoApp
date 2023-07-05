@@ -8,8 +8,9 @@ InfoApp is an application to find most importan information all over the world. 
 TECHNOLOGIES
 Angular: lazyLoading, Services, Routing, HttpClient, Observable, INput, Output, Directive, nfIF
 
-
-
+[homePage](src/assets/1.PNG)
+[searchPanel](src/assets/2.PNG)
+[searchPanel2](src/assets/3.PNG)
 
 
 
