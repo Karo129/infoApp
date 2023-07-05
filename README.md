@@ -12,7 +12,14 @@ Angular: lazyLoading, Services, Routing, HttpClient, Observable, INput, Output, 
 [searchPanel](src/assets/2.PNG)
 [searchPanel2](src/assets/3.PNG)
 
+<img src="src/assets/1.PNG" alt="homePage">
 
+#
+
+<img src="src/assets/2.PNG" alt="searchPanel1">
+#
+
+<img src="src/assets/3.PNG" alt="searchPanel2">
 
 
 
