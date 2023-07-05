@@ -2,6 +2,20 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
 
+ABOUT
+InfoApp is an application to find most importan information all over the world. You have the option to read most watched information on the main page, use the search page or navigate to specific category pages to access the desired information. 
+
+TECHNOLOGIES
+Angular: lazyLoading, Services, Routing, HttpClient, Observable, INput, Output, Directive, nfIF
+
+
+
+
+
+
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
